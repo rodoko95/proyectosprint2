@@ -4,8 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
-  },
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+},
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
