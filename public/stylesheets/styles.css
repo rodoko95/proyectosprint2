@@ -11,6 +11,10 @@ p {
   color: #ffffff;
 }
 
+h1 {
+  color: #FFFF !important;
+}
+
 h2 {
   color: #FFFF;
 }
