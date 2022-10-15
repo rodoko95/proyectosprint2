@@ -1,0 +1,64 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  color: #ffffff;
+}
+
+h2 {
+  color: #FFFF;
+}
+
+h3, .title {
+  color: #f8ff3b;
+  filter: drop-shadow(0 0 0.15rem #ff0000);
+}
+
+.main {
+  font-size: 40px;
+}
+/*  */img{
+
+  background-size: cover;
+}
+
+.fondo {
+  background-image:url(../images/synthwave-8k-qt.jpg);
+  background-size:cover;
+}
+
+.texto{
+  color:#ffffff
+}
+
+.caracteristicas {
+  background-image:url(../images/synthwave-8k-qt.jpg);
+  background-size: contain;
+  background-repeat: round;
+}
+
+.remark {
+  color: #f8ff3b;
+  filter: drop-shadow(0 0 0.15rem #ff0000);
+  font-size: 30px;
+}
+
+.navbar-brand, .navbar-nav {
+  color: #FFFF
+}
+
+.plans {
+  font-size: 10px;
+}
+
+.clientes {
+  color: #ff0000;
+  position: static;
+  filter: drop-shadow(0 0 0.75rem #000000);
+}

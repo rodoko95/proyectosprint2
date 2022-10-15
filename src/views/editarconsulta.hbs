@@ -1,0 +1,55 @@
+<body class="fondo">
+<div class="container">
+    <hr>
+    <div class="text-center m-4">
+        <h1>
+            Edita tu Consulta
+        </h1>
+    </div>
+    <hr>
+<form action="/editarconsulta/{{ result._id }}?_method=PUT" method="POST">
+    <div class="col-md-4">
+    <label for="nombre " class="form-label">Nombre</label>
+    <input
+        type="text"
+        class="form-control"
+        id="nombre"
+        name="nombre"
+        value= "{{ result.nombre}}"
+        required
+    />
+    <div class="valid-feedback">
+        Looks good!
+    </div>
+    </div>
+    <div class="col-md-4">
+    <label for="provincia" class="form-label">Provincia</label>
+    <input
+        type="text"
+        class="form-control"
+        id="provincia"
+        name="provincia"
+        value="{{ result.provincia }}"
+        required
+    />
+    <div class="valid-feedback">
+        Looks good!
+    </div>
+    </div>
+    <div class="col-md-6">
+    <label for="plan" class="form-label">Plan</label>
+    <input 
+        type="text" 
+        class="form-control" 
+        id="plan"
+        name="plan"
+        value= "{{ result.plan }}" 
+        required 
+    />
+    </div>
+    <div class="col-12 text-center">
+    <button class="btn btn-primary w-50" type="submit">Modificar Consulta</button>
+    </div>
+</form>
+</div>
+</body>

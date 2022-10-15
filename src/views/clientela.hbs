@@ -1,0 +1,24 @@
+<body class="fondo">
+<div class="container">
+    <table class="table table-dark">
+        <thead>
+            <th>Nombre</th>
+            <th>Provincia</th>
+            <th>Plan</th>  
+            <th>Borrar / Editar</th>          
+        </thead>
+        <tbody>
+            {{#each results}}
+            <tr>
+                {{!-- Para traer datos de la DB --}}
+                
+                <td>{{nombre}}</td>
+                <td>{{provincia}}</td>
+                <td>{{plan}}</td>
+                <td><a href="/delete/{{_id}}" class="btn btn-danger">Borrar</a> <a href="/editarconsulta/{{_id}}" class="btn btn-primary">Editar</a></td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div> 
+</body>
